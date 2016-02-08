@@ -17,9 +17,9 @@
 			Descárgala y comienza a reportar los baches de la ciudad.
 		</p>
 		<div>
-			<img src="img/appstore.png" alt="Consíguelo en el AppStore">
-			<img src="img/google_play.png" alt="Disponible en Google play">
+			<img src="app/img/appstore.png" alt="Consíguelo en el AppStore">
+			<img src="app/img/google_play.png" alt="Disponible en Google play">
 		</div>
-		<img src="img/iphone_app.png" alt="Ilustración de app para iPhone">
+		<img src="app/img/iphone_app.png" alt="Ilustración de app para iPhone">
 	</div>
 </section>
