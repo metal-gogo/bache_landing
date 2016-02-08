@@ -6,9 +6,11 @@
  * Time: 10:42 PM
  */
 ?>
-	<?php require_once "header.php"; ?>
-	<div class="content">
-
-	</div>
-	<?php require_once "footer.php"; ?>
-	<?php require_once "include-scripts.php"; ?>
+<?php require_once "header.php"; ?>
+<?php require_once "nav.php"; ?>
+<?php require_once "section.app.php"; ?>
+<?php require_once "section.programa.php"; ?>
+<?php require_once "section.funciona.php"; ?>
+<?php require_once "section.bache.php"; ?>
+<?php require_once "footer.php"; ?>
+<?php require_once "include.scripts.php"; ?>

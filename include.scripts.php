@@ -16,6 +16,6 @@
 	try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
 	catch(e){window.attachEvent("onload", $buo_f)}
 </script>
-<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-<script src="vendor/what-input.min.js"></script>
-<script src="https://cdn.jsdelivr.net/foundation/6.1.2/foundation.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>-->
+<!--<script src="vendor/what-input.min.js"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/foundation/6.1.2/foundation.min.js"></script>-->
