@@ -5,17 +5,14 @@
  * Date: 2/7/2016
  * Time: 8:06 PM
  */
-date_default_timezone_set( 'America/Mexico_City' );
+//date_default_timezone_set( 'America/Mexico_City' );
 ?>
-
 <!DOCTYPE html>
-<html lang="es">
+<html class="no-js" lang="es">
 <head>
-	<meta charset="UTF-8">
-	<title>Bache 24</title>
+	<?php require_once "head.php"; ?>
 </head>
 <body>
-
+	<?php require_once "body.php"; ?>
 </body>
 </html>
-

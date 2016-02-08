@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'HelveticaNeue';
+	url('font/HelveticaNeue.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeue';
+	url('font/HelveticaNeueBold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeue';
+	url('font/HelveticaNeueLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+*, body{
+	font-family: HelveticaNeue, sans-serif;
+	font-size: 40px;
+}
+
+.content{
+	background-image: url("../img/00-Landing-Bache-24.png");
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	max-width: 1200px;
+	opacity: 0.2;
+	width: 100%;
+}
