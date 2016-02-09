@@ -43,7 +43,6 @@
 	color: #484848;
 	font-family: 'Helvetica Neue', sans-serif;
 	font-size: 15px;
-	/*padding: 15px;*/
 }
 
 a {
@@ -238,6 +237,24 @@ img {
 }
 /* Sección Bache */
 
+/* Sección Footer */
+.footer-text {
+	color: #484848;
+	display: block;
+	float: left;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.footer-link{
+	color: inherit;
+	font-size: inherit;
+}
+/* Sección Footer */
+
 @media only screen and (min-width: 500px) {
 	/* Estilos generales */
 	.section-title {
@@ -307,7 +324,20 @@ img {
 	/* Sección App */
 }
 
-
+@media only screen and (min-width: 1110px) {
+	/* Sección Footer */
+	.footer-text{
+		width: 30%;
+	}
+	.footer-text:nth-of-type(1) {
+	}
+	.footer-text:nth-of-type(2) {
+		margin: 0 5%;
+	}
+	.footer-text:nth-of-type(3) {
+	}
+	/* Sección Footer */
+}
 
 
 
