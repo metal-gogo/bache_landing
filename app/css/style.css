@@ -1,33 +1,299 @@
 @font-face {
-	font-family: 'HelveticaNeue';
-	url('../font/HelveticaNeue.ttf') format('truetype');
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'HelveticaNeue';
-	url('../font/HelveticaNeueBold.ttf') format('truetype');
-	font-weight: 700;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'HelveticaNeue';
-	url('../font/HelveticaNeueLight.ttf') format('truetype');
-	font-weight: 200;
+	font-family: 'Helvetica Neue';
+	src: url('font/HelveticaNeue-Thin.woff') format('woff'),
+	url('font/HelveticaNeue-Thin.ttf') format('truetype');
+	font-weight: 100;
 	font-style: normal;
 }
 
-*, body{
-	font-family: HelveticaNeue, sans-serif;
-	/*font-size: 40px;*/
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('font/HelveticaNeue-Medium.woff') format('woff'),
+	url('font/HelveticaNeue-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('font/HelveticaNeue.woff') format('woff'),
+	url('font/HelveticaNeue.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('font/HelveticaNeue-Light.woff') format('woff'),
+	url('font/HelveticaNeue-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('font/HelveticaNeue-Bold.woff') format('woff'),
+	url('font/HelveticaNeue-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+*{
+	color: #484848;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	/*padding: 15px;*/
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.section-container {
+	display: block;
+	margin: 0 auto;
+	max-width: 1024px;
+	padding: 20px;
+	position: relative;
+	width: 90%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.rosa-cl{
+	color: #ec2697;
+}
+
+/* Sección App */
+.section-app-header-image{
+	background-image: url("http://loremflickr.com/1920/1080/mexico");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 280px;
+}
+
+.section-app-content{
+	display: block;
+	margin: 0 auto;
+	max-width: 500px;
+	width: 100%;
+}
+
+.section-app-title {
+	font-size: 36px;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+.section-app-text{
+}
+
+.section-app-buttons-container {
+	margin: 50px auto;
+}
+
+.section-app-button {
+	display: block;
+}
+
+.section-app-button-img {
+	display: block;
+	margin: 40px auto;
+}
+
+.section-app-image{
+	display: none;
+	margin: 0 auto;
+	margin-top: -154px;
+}
+/* Sección App */
+
+
+@media only screen and (min-width: 500px) {
+	/* Sección App */
+	.section-app-title {
+		font-size: 50px;
+	}
+	/* Sección App */
+}
+
+@media only screen and (min-width: 930px) {
+	/* Sección App */
+	.section-app-content{
+		display: block;
+		float: left;
+	}
+
+	.section-app-button-img {
+		margin: 0;
+	}
+
+	.section-app-button:nth-of-type(1) {
+		float: left;
+	}
+
+	.section-app-button:nth-of-type(2) {
+		float: right;
+	}
+
+	.section-app-image{
+		display: block;
+	}
+	/* Sección App */
+}
+
+@media only screen and (min-width: 1050px) {
+	/* Sección App */
+	.section-app-content{
+		display: block;
+		float: left;
+		max-width: 580px;
+	}
+	/* Sección App */
+}
+
+
+
+
+
+
+
+
+
+
 
 .content{
-	background-image: url("../img/00-Landing-Bache-24.png");
-	background-repeat: no-repeat;
-	margin: 0 auto;
-	max-width: 1200px;
-	opacity: 0.2;
+	/*background-image: url("../img/00-Landing-Bache-24.png");*/
+	/*background-repeat: no-repeat;*/
+	/*margin: 0 auto;*/
+	/*max-width: 1200px;*/
+	/*opacity: 0.2;*/
+	/*width: 100%;*/
+}
+
+.fixed-nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
 	width: 100%;
+	height: 50px;
+	background-color: #020202;
+}
+
+/* The element at the top of the page right after the fixed navigation bar
+   MUST have sufficient top margin or else it will be covered by the bar */
+.content {
+	/*margin-top: 50px;*/
+}
+
+/* Example responsive navigation menu  */
+.fixed-nav-bar li, .fixed-nav-bar a {
+	height: 50px;
+	line-height: 50px;
+}
+.menu {
+	width: 90%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.menu a, .menu a:visited {
+	color: #ffffff;
+}
+.menu a:hover, .menu a:target {
+	color: #ebebeb;
+}
+.menu-items {
+	display: block;
+	float: right;
+}
+.sitename {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+a.sitename, a:visited.sitename {
+	color: #e0e0e0;
+}
+.menu-items li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.menu-items a {
+	text-decoration: none;
+}
+.show, .hide {
+	display: none;
+	padding-left: 15px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center left;
+	color: #dde1e2;
+}
+/*.show {*/
+	/*background-image: url(assets/down-arrow-icon.png);*/
+/*}*/
+/*.hide {*/
+	/*background-image: url(assets/up-arrow-icon.png);*/
+/*}*/
+
+@media only screen and (max-width: 800px) {
+	.menu {
+		position: relative;
+		width: 100%;
+	}
+	.sitename {
+		position: absolute;
+		top: 0;
+		left: 15px;
+		margin-left: 0;
+	}
+	.menu-items {
+		display: none;
+		width: 100%;
+		margin-top: 50px;
+		background-color: #008378;
+	}
+	.menu-items li {
+		display: block;
+		text-align: center;
+	}
+	.show, .hide {
+		position: absolute;
+		top: 0;
+		right: 15px;
+	}
+	.show {
+		display: inline-block;
+	}
+	.hide {
+		display: none;
+	}
+	#menu:target .show {
+		display: none;
+	}
+	#menu:target .hide, #menu:target .menu-items {
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 220px) {
+	.sitename, .show, .hide {
+		font-size: 14px;
+	}
 }
 

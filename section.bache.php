@@ -7,7 +7,7 @@
  */
 ?>
 <section id="section-bache" class="section">
-	<div class="section-content">
+	<div class="section-container">
 		<div>
 			<h1>¿Qué es un bache?</h1>
 			<p>

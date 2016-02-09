@@ -7,7 +7,7 @@
  */
 ?>
 <section id="section-program" class="section">
-	<div class="section-content">
+	<div class="section-container">
 		<h1>Programa Bache-24</h1>
 		<p>
 			Este Programa tiene por objeto garantizar la seguridad vial y peatonal de los habitantes de la

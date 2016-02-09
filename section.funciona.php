@@ -7,7 +7,7 @@
  */
 ?>
 <section id="section-funciona" class="section">
-	<div class="section-content">
+	<div class="section-container">
 		<div>
 			<h2 class="paso">1</h2>
 			<p>
