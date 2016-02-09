@@ -6,7 +6,7 @@ var getOffsetValue = function(){
 	var width = $( window ).width();
 	return ( width < 400 )
 		? 90
-		: ( width < 500 )
+		: ( width < 640 )
 		       ? 100
 		       : 120;
 };

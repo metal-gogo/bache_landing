@@ -17,9 +17,7 @@
 			</div>
 			<div class="sitename-programa blanco-cl">Programa de bacheo de la Ciudad de México</div>
 		</a>
-		<!-- Example responsive navigation menu  -->
-		<a class="show" href="#menu"></a>
-		<a class="hide" href="#hidemenu">Menu</a>
+		<img class="responsive-menu" height="40" width="40" src="app/img/menu_mobile.svg" alt="Botón de menú para tabletas y móviles">
 		<ul class="menu-items">
 			<li><a class="menu-item" href="#app">Conoce la app</a></li>
 			<li><a class="menu-item" href="#programa">Programa B-24</a></li>

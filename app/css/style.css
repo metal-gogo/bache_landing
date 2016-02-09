@@ -137,12 +137,21 @@ img {
 	max-width: 1024px;
 	margin: 0 auto;
 }
+
 .menu a, .menu a:visited {
 	color: #ffffff;
 }
 .menu a:hover, .menu a:target {
 	/*color: #ebebeb;*/
 }
+
+.responsive-menu {
+	cursor: pointer;
+	float: right;
+	margin: 1.5em auto;
+	width: 20px;
+}
+
 .menu-items {
 	display: none;
 	float: right;
@@ -150,7 +159,7 @@ img {
 }
 .sitename {
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 5px;
 	margin-left: 10px;
 }
 
@@ -199,14 +208,39 @@ a.sitename, a:visited.sitename {
 .menu-items a {
 	text-decoration: none;
 }
-.show, .hide {
-	display: none;
-	padding-left: 15px;
-	background-color: transparent;
-	background-repeat: no-repeat;
-	background-position: center left;
-	color: #dde1e2;
+
+.menu-items-show {
+	background-color: rgba(0, 0, 0, 0.8);
+	display: block;
+	float: none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
 }
+
+.fixed-nav-bar .menu-items-show li,
+.fixed-nav-bar .menu-items-show a {
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+}
+
+.fixed-nav-bar .menu-items-show li:hover,
+.fixed-nav-bar .menu-items-show a:hover {
+	background-color: rgba( 0, 0, 0, 1 );
+}
+
+.menu-items-show li {
+	/*height: 40px;*/
+	/*line-height: 40px;*/
+	/*width: 100%;*/
+}
+
+.menu-items-show .menu-item{
+	/*line-height: 40px;*/
+	/*width: 100%;*/
+}
+
 /* Menú */
 
 /* Sección App */
@@ -359,6 +393,11 @@ a.sitename, a:visited.sitename {
 		line-height: 100px;
 	}
 
+	.responsive-menu {
+		margin: 2em auto;
+		width: 30px;
+	}
+
 	.sitename-titulo-programa {
 		font-size: 34px;
 	}
@@ -370,25 +409,6 @@ a.sitename, a:visited.sitename {
 }
 
 @media only screen and (min-width: 500px) {
-	/* Menú */
-	.fixed-nav-bar {
-		height: 120px;
-	}
-
-	.fixed-nav-bar li, .fixed-nav-bar a {
-		height: 120px;
-		line-height: 120px;
-	}
-	.sitename-titulo-programa{
-		font-size: 40px;
-		margin: 1em 0 0;
-	}
-
-	.sitename-programa{
-		font-size: 14px;
-	}
-	/* Menú */
-
 	/* Estilos generales */
 	.section-title {
 		font-size: 50px;
@@ -400,6 +420,34 @@ a.sitename, a:visited.sitename {
 		font-size: 26px;
 	}
 	/* Sección Bache */
+}
+
+@media only screen and (min-width: 640px) {
+	/* Menú */
+	.fixed-nav-bar {
+		height: 120px;
+	}
+
+	.fixed-nav-bar li, .fixed-nav-bar a {
+		height: 120px;
+		line-height: 120px;
+	}
+
+	.responsive-menu {
+		margin: 3.5em auto;
+		width: 40px;
+	}
+
+	.sitename-titulo-programa {
+		font-size: 40px;
+		margin: 1em 0 0;
+	}
+
+	.sitename-programa {
+		font-size: 14px;
+	}
+
+	/* Menú */
 }
 
 @media only screen and (min-width: 780px) {
@@ -459,6 +507,10 @@ a.sitename, a:visited.sitename {
 
 @media only screen and (min-width: 1080px) {
 	/* Menú */
+	.responsive-menu {
+		display: none;
+	}
+
 	.menu-items{
 		display: block;
 	}
