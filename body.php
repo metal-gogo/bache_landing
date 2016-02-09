@@ -6,7 +6,7 @@
  * Time: 10:42 PM
  */
 ?>
-<?php //require_once "header.php"; ?>
+<?php require_once "header.php"; ?>
 <div class="content">
 	<?php require_once "section.app.php"; ?>
 	<?php require_once "section.programa.php"; ?>

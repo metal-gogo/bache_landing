@@ -108,13 +108,106 @@ img {
 	background-color: #000;
 	bottom: 0;
 	left: 0;
-	opacity: .5;
+	opacity: .8;
 	position: absolute;
 	right: 0;
 	top: 0;
 	z-index: 0;
 }
 /* Estilos generales */
+
+/* Menú */
+.fixed-nav-bar {
+	background-color: rgba( 0, 0, 0, .8 );
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 90px;
+}
+
+.fixed-nav-bar li, .fixed-nav-bar a {
+	height: 90px;
+	line-height: 90px;
+}
+.menu {
+	width: 90%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.menu a, .menu a:visited {
+	color: #ffffff;
+}
+.menu a:hover, .menu a:target {
+	/*color: #ebebeb;*/
+}
+.menu-items {
+	display: none;
+	float: right;
+	margin-top: 1em;
+}
+.sitename {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.sitename-titulo-programa {
+	display: block;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 40px;
+	margin: 0.5em 0 0;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.sitename-bache{
+	font-size: inherit;
+	margin-right: 0.5em;
+}
+
+.sitename-cdmx{
+	font-size: inherit;
+	font-weight: 300;
+}
+
+.sitename-cdmx-mx{
+	color: inherit;
+	font-size: inherit;
+	font-weight: 700;
+}
+
+.sitename-programa {
+	display: block;
+	font-size: 9px;
+	line-height: 18px;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+a.sitename, a:visited.sitename {
+	color: #e0e0e0;
+}
+.menu-items li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.menu-items a {
+	text-decoration: none;
+}
+.show, .hide {
+	display: none;
+	padding-left: 15px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center left;
+	color: #dde1e2;
+}
+/* Menú */
 
 /* Sección App */
 .section-app-header-image{
@@ -255,7 +348,47 @@ img {
 }
 /* Sección Footer */
 
+@media only screen and (min-width: 400px) {
+	/* Menú */
+	.fixed-nav-bar {
+		height: 100px;
+	}
+
+	.fixed-nav-bar li, .fixed-nav-bar a {
+		height: 100px;
+		line-height: 100px;
+	}
+
+	.sitename-titulo-programa {
+		font-size: 34px;
+	}
+
+	.sitename-programa {
+		font-size: 12px;
+	}
+	/* Menú */
+}
+
 @media only screen and (min-width: 500px) {
+	/* Menú */
+	.fixed-nav-bar {
+		height: 120px;
+	}
+
+	.fixed-nav-bar li, .fixed-nav-bar a {
+		height: 120px;
+		line-height: 120px;
+	}
+	.sitename-titulo-programa{
+		font-size: 40px;
+		margin: 1em 0 0;
+	}
+
+	.sitename-programa{
+		font-size: 14px;
+	}
+	/* Menú */
+
 	/* Estilos generales */
 	.section-title {
 		font-size: 50px;
@@ -324,6 +457,14 @@ img {
 	/* Sección App */
 }
 
+@media only screen and (min-width: 1080px) {
+	/* Menú */
+	.menu-items{
+		display: block;
+	}
+	/* Menú */
+}
+
 @media only screen and (min-width: 1110px) {
 	/* Sección Footer */
 	.footer-text{
@@ -342,131 +483,4 @@ img {
 
 
 
-
-
-
-
-
-.content{
-	/*background-image: url("../img/00-Landing-Bache-24.png");*/
-	/*background-repeat: no-repeat;*/
-	/*margin: 0 auto;*/
-	/*max-width: 1200px;*/
-	/*opacity: 0.2;*/
-	/*width: 100%;*/
-}
-
-.fixed-nav-bar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 9999;
-	width: 100%;
-	height: 50px;
-	background-color: #020202;
-}
-
-/* The element at the top of the page right after the fixed navigation bar
-   MUST have sufficient top margin or else it will be covered by the bar */
-.content {
-	/*margin-top: 50px;*/
-}
-
-/* Example responsive navigation menu  */
-.fixed-nav-bar li, .fixed-nav-bar a {
-	height: 50px;
-	line-height: 50px;
-}
-.menu {
-	width: 90%;
-	max-width: 1024px;
-	margin: 0 auto;
-}
-.menu a, .menu a:visited {
-	color: #ffffff;
-}
-.menu a:hover, .menu a:target {
-	color: #ebebeb;
-}
-.menu-items {
-	display: block;
-	float: right;
-}
-.sitename {
-	display: inline-block;
-	margin-right: 20px;
-	margin-left: 10px;
-}
-a.sitename, a:visited.sitename {
-	color: #e0e0e0;
-}
-.menu-items li {
-	display: inline-block;
-	margin-right: 10px;
-	margin-left: 10px;
-}
-.menu-items a {
-	text-decoration: none;
-}
-.show, .hide {
-	display: none;
-	padding-left: 15px;
-	background-color: transparent;
-	background-repeat: no-repeat;
-	background-position: center left;
-	color: #dde1e2;
-}
-/*.show {*/
-	/*background-image: url(assets/down-arrow-icon.png);*/
-/*}*/
-/*.hide {*/
-	/*background-image: url(assets/up-arrow-icon.png);*/
-/*}*/
-
-@media only screen and (max-width: 800px) {
-	.menu {
-		position: relative;
-		width: 100%;
-	}
-	.sitename {
-		position: absolute;
-		top: 0;
-		left: 15px;
-		margin-left: 0;
-	}
-	.menu-items {
-		display: none;
-		width: 100%;
-		margin-top: 50px;
-		background-color: #008378;
-	}
-	.menu-items li {
-		display: block;
-		text-align: center;
-	}
-	.show, .hide {
-		position: absolute;
-		top: 0;
-		right: 15px;
-	}
-	.show {
-		display: inline-block;
-	}
-	.hide {
-		display: none;
-	}
-	#menu:target .show {
-		display: none;
-	}
-	#menu:target .hide, #menu:target .menu-items {
-		display: inline-block;
-	}
-}
-
-@media only screen and (max-width: 220px) {
-	.sitename, .show, .hide {
-		font-size: 14px;
-	}
-}
 
