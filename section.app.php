@@ -8,6 +8,7 @@
 ?>
 <section id="section-app" class="section section-app">
 	<header class="section-app-header-image">
+		<div class="section-mask"></div>
 	</header>
 	<div class="section-container">
 		<div class="section-app-content">

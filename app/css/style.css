@@ -98,6 +98,17 @@ img {
 	font-weight: 300;
 	text-transform: uppercase;
 }
+
+.section-mask{
+	background-color: #000;
+	bottom: 0;
+	left: 0;
+	opacity: .5;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
 /* Estilos generales */
 
 /* Sección App */
@@ -107,6 +118,7 @@ img {
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 280px;
+	position: relative;
 }
 
 .section-app-content{
@@ -174,18 +186,6 @@ img {
 .section-programa-image{
 
 }
-
-.section-programa-mask{
-	background-color: #000;
-	bottom: 0;
-	left: 0;
-	opacity: .5;
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: 0;
-}
-
 /* Sección Programa */
 
 /* Sección Funciona */
@@ -207,7 +207,7 @@ img {
 }
 
 .step-text {
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 40px;
 	margin-top: 30px;
 	width: calc(100% - 80px);
@@ -237,15 +237,9 @@ img {
 		width: 45%;
 	}
 
-	.step {
-
-	}
-
 	.step-text {
-
+		font-size: 24px;
 	}
-    
-
 	/* Sección Funciona */
 }
 
