@@ -6,7 +6,7 @@
  * Time: 11:29 PM
  */
 ?>
-<section id="section-bache" class="section">
+<section id="section-bache" class="section section-bache">
 	<div class="section-container">
 		<div>
 			<h1>¿Qué es un bache?</h1>

@@ -1,3 +1,4 @@
+/* Estilos generales */
 @font-face {
 	font-family: 'Helvetica Neue';
 	src: url('font/HelveticaNeue-Thin.woff') format('woff'),
@@ -50,17 +51,12 @@ a {
 	text-decoration: none;
 }
 
-img {
-	max-width: 100%;
+p{
+	line-height: 24px;
 }
 
-.section-container {
-	display: block;
-	margin: 0 auto;
-	max-width: 1024px;
-	padding: 20px;
-	position: relative;
-	width: 90%;
+img {
+	max-width: 100%;
 }
 
 .left{
@@ -71,9 +67,38 @@ img {
 	float: right;
 }
 
+.rosa-bg{
+	background-color: #ec2697;
+}
+
 .rosa-cl{
 	color: #ec2697;
 }
+
+.blanco-cl{
+	color: #fff;
+}
+
+.section{
+	position: relative;
+}
+
+.section-container {
+	display: block;
+	margin: 0 auto;
+	max-width: 1024px;
+	padding: 20px;
+	position: relative;
+	width: 90%;
+	z-index: 1;
+}
+
+.section-title {
+	font-size: 36px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+/* Estilos generales */
 
 /* Sección App */
 .section-app-header-image{
@@ -91,10 +116,7 @@ img {
 	width: 100%;
 }
 
-.section-app-title {
-	font-size: 36px;
-	font-weight: 200;
-	text-transform: uppercase;
+.section-app-title{
 }
 
 .section-app-text{
@@ -116,17 +138,115 @@ img {
 .section-app-image{
 	display: none;
 	margin: 0 auto;
-	margin-top: -154px;
+	margin-top: -130px;
 }
 /* Sección App */
 
+/* Sección Programa */
+
+.section-programa{
+	background-image: url("http://loremflickr.com/1920/1080/mexico");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.section-programa-content{
+	margin: 0 auto;
+	max-width: 610px;
+	text-align: center;
+	width: 100%;
+}
+
+.section-programa-title{
+
+}
+
+.section-programa-title-complement{
+	font-size: inherit;
+	font-weight: 700;
+}
+
+.section-progama-text{
+	margin: 40px auto;
+}
+
+.section-programa-image{
+
+}
+
+.section-programa-mask{
+	background-color: #000;
+	bottom: 0;
+	left: 0;
+	opacity: .5;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
+
+/* Sección Programa */
+
+/* Sección Funciona */
+.step-container{
+	width: 100%;
+}
+
+.step {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	font-size: 42px;
+	font-weight: 700;
+	height: 60px;
+	line-height: 60px;
+	margin-right: 20px;
+	text-align: center;
+	width: 60px;
+}
+
+.step-text {
+	font-size: 24px;
+	line-height: 40px;
+	margin-top: 30px;
+	width: calc(100% - 80px);
+}
+
+.section-funciona-image{
+	display: block;
+	margin: 0 auto;
+	max-width: 200px;
+	width: 50%;
+}
+
+/* Sección Funciona */
 
 @media only screen and (min-width: 500px) {
-	/* Sección App */
-	.section-app-title {
+	/* Estilos generales */
+	.section-title {
 		font-size: 50px;
 	}
-	/* Sección App */
+	/* Estilos generales */
+}
+
+@media only screen and (min-width: 780px) {
+	/* Sección Funciona */
+	.step-container {
+		min-height: 360px;
+		width: 45%;
+	}
+
+	.step {
+
+	}
+
+	.step-text {
+
+	}
+    
+
+	/* Sección Funciona */
 }
 
 @media only screen and (min-width: 930px) {

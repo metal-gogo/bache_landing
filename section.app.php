@@ -6,12 +6,12 @@
  * Time: 11:28 PM
  */
 ?>
-<section id="section-app" class="section">
+<section id="section-app" class="section section-app">
 	<header class="section-app-header-image">
 	</header>
 	<div class="section-container">
 		<div class="section-app-content">
-			<h1 class="section-app-title rosa-cl">Conoce la app</h1>
+			<h1 class="section-title section-app-title rosa-cl">Conoce la app</h1>
 			<p class="section-app-text">
 				La Ciudad de México ha vivido un deterioro en su infraestructura a lo largo de los años, es por eso que
 				el Jefe de Gobierno, Dr. Miguel Ángel Mancera Espinosa, mediante la Secretaría de Obras y Servicios y
@@ -21,10 +21,10 @@
 			</p>
 			<div class="section-app-buttons-container">
 				<a class="section-app-button" href="#">
-					<img class="section-app-button-img" src="app/img/appstore.png" alt="Consíguelo en el AppStore">
+					<img class="section-app-button-img" height="73" width="241" src="app/img/appstore.png" alt="Consíguelo en el AppStore">
 				</a>
 				<a class="section-app-button" href="#">
-					<img class="section-app-button-img" src="app/img/google_play.png" alt="Disponible en Google play">
+					<img class="section-app-button-img" height="73" width="241" src="app/img/google_play.png" alt="Disponible en Google play">
 				</a>
 				<div style="clear: both;"></div>
 			</div>
