@@ -14,7 +14,7 @@
 				Reporta un bache en vía primaria desde tu app.
 			</p>
 			<div style="clear: both;"></div>
-			<img class="section-funciona-image" height="200" width="200" src="app/img/" alt="Ilustración de uso de app">
+			<img class="section-funciona-image" height="200" width="200" src="app/img/reportar.svg" alt="Ilustración de uso de app">
 		</div>
 		<div class="step-container right">
 			<h2 class="step rosa-bg blanco-cl left">2</h2>
