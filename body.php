@@ -11,7 +11,7 @@
 	<?php require_once "section.app.php"; ?>
 	<?php require_once "section.programa.php"; ?>
 	<?php require_once "section.funciona.php"; ?>
-<!--	--><?php //require_once "section.bache.php"; ?>
+	<?php require_once "section.bache.php"; ?>
 </div>
 <?php require_once "footer.php"; ?>
 <?php require_once "include.scripts.php"; ?>

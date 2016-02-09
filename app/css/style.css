@@ -79,6 +79,12 @@ img {
 	color: #fff;
 }
 
+.background-image{
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
 .section{
 	position: relative;
 }
@@ -114,9 +120,6 @@ img {
 /* Sección App */
 .section-app-header-image{
 	background-image: url("http://loremflickr.com/1920/1080/mexico");
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
 	height: 280px;
 	position: relative;
 }
@@ -155,12 +158,8 @@ img {
 /* Sección App */
 
 /* Sección Programa */
-
 .section-programa{
 	background-image: url("http://loremflickr.com/1920/1080/mexico");
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
 }
 
 .section-programa-content{
@@ -219,8 +218,25 @@ img {
 	max-width: 200px;
 	width: 50%;
 }
-
 /* Sección Funciona */
+
+/* Sección Bache */
+.section-bache{
+	background-image: url("http://loremflickr.com/1920/1080/mexico");
+}
+
+.section-bache-title{
+	font-size: 26px;
+	text-align: center;
+}
+
+.section-bache-subtitle{
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.section-bache-text{
+}
+/* Sección Bache */
 
 @media only screen and (min-width: 500px) {
 	/* Estilos generales */
@@ -228,6 +244,12 @@ img {
 		font-size: 50px;
 	}
 	/* Estilos generales */
+
+	/* Sección Bache */
+	.section-bache-title{
+		font-size: 26px;
+	}
+	/* Sección Bache */
 }
 
 @media only screen and (min-width: 780px) {
@@ -241,6 +263,13 @@ img {
 		font-size: 24px;
 	}
 	/* Sección Funciona */
+
+	/* Sección Bache */
+	.section-bache-text{
+		margin: 0 auto;
+		width: 76%;
+	}
+	/* Sección Bache */
 }
 
 @media only screen and (min-width: 930px) {

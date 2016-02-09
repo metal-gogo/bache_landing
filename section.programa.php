@@ -6,7 +6,7 @@
  * Time: 11:29 PM
  */
 ?>
-<section id="section-programa" class="section section-programa">
+<section id="section-programa" class="section background-image section-programa">
 	<div class="section-container">
 		<div class="section-programa-content">
 			<h1 class="section-title section-programa-title rosa-cl">Programa <span class="section-programa-title-complement blanco-cl">Bache-24</span></h1>
