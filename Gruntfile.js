@@ -84,6 +84,7 @@ module.exports = function(grunt) {
 			}
 		},
 
+		// TODO Fix ftpush. Not working!
 		ftpush: {
 			build_css: {
 				auth: {
@@ -92,7 +93,7 @@ module.exports = function(grunt) {
 					authKey: 'bacheLanding'
 				},
 				src: 'dist/css',
-				dest: '/public_html/bachelanding/dist/css',
+				dest: '/dist/css'
 			},
 			build_img: {
 				auth: {
@@ -100,8 +101,8 @@ module.exports = function(grunt) {
 					port: 21,
 					authKey: 'bacheLanding'
 				},
-				src: 'dist/images',
-				dest: '/public_html/bachelanding/dist/img'
+				src: 'dist/img',
+				dest: '/dist/img'
 			},
 			build_js: {
 				auth: {
@@ -110,7 +111,7 @@ module.exports = function(grunt) {
 					authKey: 'bacheLanding'
 				},
 				src: 'dist/js',
-				dest: '/public_html/bachelanding/dist/js'
+				dest: '/dist/js'
 			}
 		}
 	});
@@ -121,12 +122,15 @@ module.exports = function(grunt) {
 	grunt.registerTask('default', ['watch']);
 
 	// CSS min task   > grunt
-	grunt.registerTask('uglify_css', ['cssmin', 'ftpush:build_css']);
+//	grunt.registerTask('uglify_css', ['cssmin', 'ftpush:build_css']);
+	grunt.registerTask('uglify_css', ['cssmin']);
 
 	// JS min task   > grunt
-	grunt.registerTask('jsmin', ['uglify', 'ftpush:build_js']);
+//	grunt.registerTask('jsmin', ['uglify', 'ftpush:build_js']);
+	grunt.registerTask('jsmin', ['uglify']);
 
 	// Image optimization task   > grunt
-	grunt.registerTask('image_min', ['imagemin', 'ftpush:build_img']);
+//	grunt.registerTask('image_min', ['imagemin', 'ftpush:build_img']);
+	grunt.registerTask('image_min', ['imagemin']);
 
 };

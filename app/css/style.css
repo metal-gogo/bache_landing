@@ -155,7 +155,12 @@ img {
 .menu-items {
 	display: none;
 	float: right;
-	margin-top: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-items li{
+	cursor: pointer;
 }
 .sitename {
 	display: inline-block;
@@ -205,6 +210,12 @@ a.sitename, a:visited.sitename {
 	margin-right: 10px;
 	margin-left: 10px;
 }
+
+.menu-items li:hover,
+.menu-items a:hover {
+	background-color: rgba(236, 38, 151, 1);
+}
+
 .menu-items a {
 	text-decoration: none;
 }
@@ -221,16 +232,18 @@ a.sitename, a:visited.sitename {
 	text-align: center;
 }
 
-.fixed-nav-bar .menu-items-show li,
-.fixed-nav-bar .menu-items-show a {
-	height: 40px;
-	line-height: 40px;
+.fixed-nav-bar .menu-items-show a,
+.fixed-nav-bar .menu-items-show li {
+	font-size: 16px;
+	height: 60px;
+	line-height: 60px;
 	margin: 0 auto;
+	width: 100%;
 }
 
 .fixed-nav-bar .menu-items-show li:hover,
 .fixed-nav-bar .menu-items-show a:hover {
-	background-color: rgba( 0, 0, 0, 1 );
+	/*background-color: rgba(236, 38, 151, 1);*/
 }
 
 .menu-items-show li {
@@ -433,7 +446,7 @@ a.sitename, a:visited.sitename {
 
 	.fixed-nav-bar li, .fixed-nav-bar a {
 		height: 120px;
-		line-height: 120px;
+		line-height: 180px;
 	}
 
 	.responsive-menu {

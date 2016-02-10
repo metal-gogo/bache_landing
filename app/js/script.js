@@ -27,15 +27,36 @@ var scrollToSection = function ( section ) {
 	}
 };
 
-$(document).ready(function(){
-	$(".menu-item").click(function () {
-		var params_tmp = $(this).attr("href").split("#")[1];
+var menuItemClickHandler = function (e) {
+	if ( e.handled !== true ) { // This will prevent event triggering more then once
+		$( this ).off( 'click', menuItemClickHandler );
+		var menu_items = $("#menu-items");
+		if( menu_items.hasClass("menu-items-show") ){
+			menu_items.removeClass("menu-items-show");
+		}
+		var params_tmp = $(this ).find("a").attr("href").split("#")[1];
 		if (params_tmp.substring(0, params_tmp.indexOf("?"))) {
 			params_tmp = params_tmp.substring(0, params_tmp.indexOf("?"));
 		}
-		console.log( params_tmp );
 		scrollToSection( params_tmp );
-	});
+		$( this ).on( 'click', menuItemClickHandler );
+	}
+};
+
+var mobileMenuClickHandler = function (e) {
+	if ( e.handled !== true ) { // This will prevent event triggering more then once
+		$( this ).off( 'click', mobileMenuClickHandler );
+		var menu_items = $("#menu-items");
+		if( menu_items.hasClass("menu-items-show") ){
+			menu_items.removeClass("menu-items-show");
+		} else {
+			menu_items.addClass("menu-items-show");
+		}
+		$( this ).on( 'click', mobileMenuClickHandler );
+	}
+};
+
+$(document).ready(function(){
 
 	var section;
 	section = location.hash.substr(1);
@@ -43,4 +64,8 @@ $(document).ready(function(){
 		section = section.substring(0, section.indexOf("?"));
 	}
 	scrollToSection( section );
+
+	$(".menu-item" ).parent().on("click", menuItemClickHandler);
+
+	$("#responsive-menu").on("click", mobileMenuClickHandler);
 });
