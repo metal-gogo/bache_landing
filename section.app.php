@@ -8,7 +8,6 @@
 ?>
 <section id="section-app" class="section section-app">
 	<header class="background-image section-app-header-image">
-		<div class="section-mask"></div>
 	</header>
 	<div class="section-container">
 		<div class="section-app-content">
@@ -30,7 +29,7 @@
 				<div style="clear: both;"></div>
 			</div>
 		</div>
-		<img class="section-app-image" src="dist/img/iphone_app.png" alt="Ilustración de app para iPhone">
+		<img class="section-app-image" height="579" width="330" src="dist/img/iphone_app.png" alt="Ilustración de app para iPhone">
 		<div style="clear: both;"></div>
 	</div>
 </section>

@@ -1,8 +1,7 @@
 /**
  * Created by danie on 2/9/2016.
  */
-
-var getOffsetValue = function(){
+	var getOffsetValue = function(){
 	var width = $( window ).width();
 	return ( width < 400 )
 		? 90

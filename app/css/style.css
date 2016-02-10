@@ -104,16 +104,16 @@ img {
 	text-transform: uppercase;
 }
 
-.section-mask{
-	background-color: #000;
-	bottom: 0;
-	left: 0;
-	opacity: .8;
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: 0;
-}
+/*.section-mask{*/
+	/*background-color: #000;*/
+	/*bottom: 0;*/
+	/*left: 0;*/
+	/*opacity: .8;*/
+	/*position: absolute;*/
+	/*right: 0;*/
+	/*top: 0;*/
+	/*z-index: 0;*/
+/*}*/
 /* Estilos generales */
 
 /* Menú */
@@ -164,8 +164,8 @@ img {
 }
 .sitename {
 	display: inline-block;
-	margin-right: 5px;
-	margin-left: 10px;
+	/*margin-right: 5px;*/
+	/*margin-left: 10px;*/
 }
 
 .sitename-titulo-programa {
@@ -241,27 +241,28 @@ a.sitename, a:visited.sitename {
 	width: 100%;
 }
 
-.fixed-nav-bar .menu-items-show li:hover,
-.fixed-nav-bar .menu-items-show a:hover {
+/*.fixed-nav-bar .menu-items-show li:hover,*/
+/*.fixed-nav-bar .menu-items-show a:hover {*/
 	/*background-color: rgba(236, 38, 151, 1);*/
-}
+/*}*/
 
-.menu-items-show li {
+/*.menu-items-show li {*/
 	/*height: 40px;*/
 	/*line-height: 40px;*/
 	/*width: 100%;*/
-}
+/*}*/
 
-.menu-items-show .menu-item{
+/*.menu-items-show .menu-item{*/
 	/*line-height: 40px;*/
 	/*width: 100%;*/
-}
+/*}*/
 
 /* Menú */
 
 /* Sección App */
 .section-app-header-image{
-	background-image: url("http://loremflickr.com/1920/1080/mexico");
+	background-image: url("../img/background-1.jpg");
+	background-position: center;
 	height: 280px;
 	position: relative;
 }
@@ -273,11 +274,11 @@ a.sitename, a:visited.sitename {
 	width: 100%;
 }
 
-.section-app-title{
-}
+/*.section-app-title{*/
+/*}*/
 
-.section-app-text{
-}
+/*.section-app-text{*/
+/*}*/
 
 .section-app-buttons-container {
 	margin: 50px auto;
@@ -301,7 +302,8 @@ a.sitename, a:visited.sitename {
 
 /* Sección Programa */
 .section-programa{
-	background-image: url("http://loremflickr.com/1920/1080/mexico");
+	background-image: url("../img/background-2.jpg");
+	background-position: center;
 }
 
 .section-programa-content{
@@ -311,9 +313,8 @@ a.sitename, a:visited.sitename {
 	width: 100%;
 }
 
-.section-programa-title{
-
-}
+/*.section-programa-title{*/
+/*}*/
 
 .section-programa-title-complement{
 	font-size: inherit;
@@ -324,9 +325,8 @@ a.sitename, a:visited.sitename {
 	margin: 40px auto;
 }
 
-.section-programa-image{
-
-}
+/*.section-programa-image{*/
+/*}*/
 /* Sección Programa */
 
 /* Sección Funciona */
@@ -364,7 +364,8 @@ a.sitename, a:visited.sitename {
 
 /* Sección Bache */
 .section-bache{
-	background-image: url("http://loremflickr.com/1920/1080/mexico");
+	background-image: url("../img/background-1.jpg");
+	background-position: bottom;
 }
 
 .section-bache-title{
@@ -538,13 +539,15 @@ a.sitename, a:visited.sitename {
 	.footer-text{
 		width: 30%;
 	}
-	.footer-text:nth-of-type(1) {
-	}
+	/*.footer-text:nth-of-type(1) {*/
+		/*text-align: left;*/
+	/*}*/
 	.footer-text:nth-of-type(2) {
 		margin: 0 5%;
 	}
-	.footer-text:nth-of-type(3) {
-	}
+	/*.footer-text:nth-of-type(3) {*/
+		/*text-align: right;*/
+	/*}*/
 	/* Sección Footer */
 }
 

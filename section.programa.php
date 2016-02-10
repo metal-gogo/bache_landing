@@ -24,5 +24,4 @@
 			<img class="section-programa-image" height="120" width="120" src="dist/img/24_hrs_icon.svg" alt="Ilustración de servicio 24 horas al día.">
 		</div>
 	</div>
-	<div class="section-mask"></div>
 </section>

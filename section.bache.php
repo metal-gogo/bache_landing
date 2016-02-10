@@ -37,13 +37,11 @@
 				Trabajos realizados en la carpeta de rodamiento por empresas telefónicas, CFE, SACMEX, tuberías,
 				gas natural o conexiones particulares al drenaje.
 			</p>
-
 			<p class="section-bache-text blanco-cl">
 				<span class="section-bache-subtitle rosa-cl">Acocodrilado:</span>
 				Serie de grietas juntas en un área de la carpeta asfáltica, presentado generalmente por el
 				deterioro de la carpeta de rodamiento.
 			</p>
-
 			<p class="section-bache-text blanco-cl">
 				<span class="section-bache-subtitle rosa-cl">Rodera:</span>
 				Hundimiento horizontal debido al rodamiento vehicular.
@@ -56,5 +54,4 @@
 			</p>
 		</div>
 	</div>
-	<div class="section-mask"></div>
 </section>
