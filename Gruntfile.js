@@ -79,7 +79,7 @@ module.exports = function(grunt) {
 			},
 		    my_target: {
 				files : {
-					'dist/js/home.min.js' : 'js/home.js'
+					'dist/js/script.min.js' : 'app/js/script.js'
 				}
 			}
 		},
@@ -101,7 +101,7 @@ module.exports = function(grunt) {
 					authKey: 'bacheLanding'
 				},
 				src: 'dist/images',
-				dest: '/public_html/bachelanding/dist/images'
+				dest: '/public_html/bachelanding/dist/img'
 			},
 			build_js: {
 				auth: {

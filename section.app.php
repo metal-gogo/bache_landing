@@ -22,15 +22,15 @@
 			</p>
 			<div class="section-app-buttons-container">
 				<a class="section-app-button" href="#">
-					<img class="section-app-button-img" height="73" width="241" src="app/img/appstore.png" alt="Consíguelo en el AppStore">
+					<img class="section-app-button-img" height="73" width="241" src="dist/img/appstore.png" alt="Consíguelo en el AppStore">
 				</a>
 				<a class="section-app-button" href="#">
-					<img class="section-app-button-img" height="73" width="241" src="app/img/google_play.png" alt="Disponible en Google play">
+					<img class="section-app-button-img" height="73" width="241" src="dist/img/google_play.png" alt="Disponible en Google play">
 				</a>
 				<div style="clear: both;"></div>
 			</div>
 		</div>
-		<img class="section-app-image" src="app/img/iphone_app.png" alt="Ilustración de app para iPhone">
+		<img class="section-app-image" src="dist/img/iphone_app.png" alt="Ilustración de app para iPhone">
 		<div style="clear: both;"></div>
 	</div>
 </section>

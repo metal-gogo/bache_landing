@@ -213,8 +213,11 @@ a.sitename, a:visited.sitename {
 	background-color: rgba(0, 0, 0, 0.8);
 	display: block;
 	float: none;
+	left: 0;
 	margin: 0 auto;
 	padding: 0;
+	position: absolute;
+	right: 0;
 	text-align: center;
 }
 

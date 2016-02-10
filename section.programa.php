@@ -21,7 +21,7 @@
 			<p class="section-progama-text blanco-cl">
 				El programa tiene una vigencia de 365 días del año, las 24 horas del día.
 			</p>
-			<img class="section-programa-image" height="120" width="120" src="app/img/24_hrs_icon.svg" alt="Ilustración de servicio 24 horas al día.">
+			<img class="section-programa-image" height="120" width="120" src="dist/img/24_hrs_icon.svg" alt="Ilustración de servicio 24 horas al día.">
 		</div>
 	</div>
 	<div class="section-mask"></div>
