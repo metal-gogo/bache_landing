@@ -453,7 +453,7 @@ a.sitename, a:visited.sitename {
 /* Sección Privacidad */
 .section-privacidad{
 	display: block;
-	margin: 90px auto 10px;
+	margin: 120px auto 10px;
 	max-width: 1024px;
 	padding: 20px;
 	position: relative;
@@ -464,6 +464,37 @@ a.sitename, a:visited.sitename {
 .privacy-title{
 	font-size: 40px;
 }
+
+/*.privacy-list{*/
+	/*font-size: 24px;*/
+	/*font-weight: bold;*/
+/*}*/
+
+/*.privacy-subtitle{*/
+	/*font-size: 24px;*/
+/*}*/
+
+/*.privacy-text{*/
+	/*font-size: 15px;*/
+	/*font-weight: 400;*/
+/*}*/
+
+/*.privacy-sublist {*/
+	/*line-height: 30px;*/
+/*}*/
+
+/*.definition-title {*/
+	/*float: left;*/
+	/*font-size: 18px;*/
+	/*margin: -5px 1em 1em;*/
+/*}*/
+
+/*.definition-text {*/
+	/*float: left;*/
+	/*font-weight: 400;*/
+	/*margin: 0 0 1em;*/
+/*}*/
+
 /* Sección Privacidad */
 
 @media only screen and (min-width: 400px) {
