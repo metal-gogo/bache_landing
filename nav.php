@@ -19,10 +19,10 @@
 		</a>
 		<img id="responsive-menu" class="responsive-menu" height="40" width="40" src="dist/img/menu_mobile.svg" alt="Botón de menú para tabletas y móviles">
 		<ul id="menu-items" class="menu-items">
-			<li><a class="menu-item" href="#app">Conoce la app</a></li>
-			<li><a class="menu-item" href="#programa">Programa B-24</a></li>
-			<li><a class="menu-item" href="#funciona">¿Cómo funciona?</a></li>
-			<li><a class="menu-item" href="#bache">¿Qué es un bache?</a></li>
+			<li><a class="menu-item" href="/#app">Conoce la app</a></li>
+			<li><a class="menu-item" href="/#programa">Programa B-24</a></li>
+			<li><a class="menu-item" href="/#funciona">¿Cómo funciona?</a></li>
+			<li><a class="menu-item" href="/#bache">¿Qué es un bache?</a></li>
 		</ul>
 		<div style="clear: both;"></div>
 	</div>

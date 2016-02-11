@@ -13,4 +13,4 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-<meta name="description" content="Mejoremos la ciudad con Bache-24.">
+<meta name="description" content="Este programa busca garantizar la seguridad vial y peatonal de los habitantes de la Ciudad de México.">

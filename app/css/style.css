@@ -399,6 +399,73 @@ a.sitename, a:visited.sitename {
 }
 /* Sección Footer */
 
+/* Sección Error */
+.section-error{
+	display: block;
+	margin: 90px auto 10px;
+	max-width: 1024px;
+	padding: 20px;
+	position: relative;
+	width: 90%;
+	z-index: 1;
+}
+
+.error-container{
+	margin: 0 auto;
+	width: 90%;
+}
+
+.error-image {
+	display: block;
+	float: none;
+	height: auto;
+	margin: 1em auto;
+	max-width: 100%;
+}
+
+.error-content {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.error-title {
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.previous-page {
+	font-weight: 700;
+	line-height: 110px;
+	text-transform: uppercase;
+}
+
+.previous-page:before{
+	content: "< ";
+}
+
+.error-logo{
+	display: block;
+	margin: 0 auto;
+	width: 66px;
+}
+/* Sección Error */
+
+/* Sección Privacidad */
+.section-privacidad{
+	display: block;
+	margin: 90px auto 10px;
+	max-width: 1024px;
+	padding: 20px;
+	position: relative;
+	width: 90%;
+	z-index: 1;
+}
+
+.privacy-title{
+	font-size: 40px;
+}
+/* Sección Privacidad */
+
 @media only screen and (min-width: 400px) {
 	/* Menú */
 	.fixed-nav-bar {
@@ -423,6 +490,11 @@ a.sitename, a:visited.sitename {
 		font-size: 12px;
 	}
 	/* Menú */
+	/* Sección Error */
+	.error-logo{
+		float: right;
+	}
+	/* Sección Error */
 }
 
 @media only screen and (min-width: 500px) {
@@ -437,6 +509,15 @@ a.sitename, a:visited.sitename {
 		font-size: 26px;
 	}
 	/* Sección Bache */
+
+	/* Sección Error */
+	.error-title {
+		font-size: 40px;
+	}
+	.error-logo{
+		/*float: right;*/
+	}
+	/* Sección Error */
 }
 
 @media only screen and (min-width: 640px) {
@@ -463,8 +544,24 @@ a.sitename, a:visited.sitename {
 	.sitename-programa {
 		font-size: 14px;
 	}
-
 	/* Menú */
+
+	/* Sección Error */
+	.section-error{
+		margin: 200px auto 60px;
+	}
+
+	.error-image {
+		height: auto;
+		margin-right: 2em;
+		max-width: 200px;
+		float: left;
+	}
+
+	.error-title {
+		font-size: 50px;
+	}
+	/* Sección Error */
 }
 
 @media only screen and (min-width: 780px) {
@@ -485,6 +582,12 @@ a.sitename, a:visited.sitename {
 		width: 76%;
 	}
 	/* Sección Bache */
+
+	/* Sección Error */
+	.error-title {
+		font-size: 60px;
+	}
+	/* Sección Error */
 }
 
 @media only screen and (min-width: 930px) {
@@ -510,6 +613,12 @@ a.sitename, a:visited.sitename {
 		display: block;
 	}
 	/* Sección App */
+
+	/* Sección Error */
+	.error-container{
+		width: 85%;
+	}
+	/* Sección Error */
 }
 
 @media only screen and (min-width: 1050px) {
@@ -549,6 +658,18 @@ a.sitename, a:visited.sitename {
 		/*text-align: right;*/
 	/*}*/
 	/* Sección Footer */
+
+	/* Sección Error */
+	.section-error {
+		display: block;
+		margin: 260px auto 185px;
+	}
+
+	.error-container{
+		width: 75%;
+	}
+	/* Sección Error */
+
 }
 
 

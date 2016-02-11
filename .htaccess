@@ -52,7 +52,8 @@ Header set Cache-Control "max-age=2592000, public"
 
 # 1 WEEK
 <FilesMatch "\.(txt|xml|js|css)$">
-Header set Cache-Control "max-age=604800"
+#Header set Cache-Control "max-age=604800"
+Header set Cache-Control "max-age=1"
 </FilesMatch>
 
 # NEVER CACHE - notice the extra directives

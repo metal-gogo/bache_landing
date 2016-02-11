@@ -15,4 +15,5 @@
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:height" content="630" />
 <meta property="og:image:width" content="1200" />
-<meta property="og:description" content="Mejoremos la ciudad con Bache-24." />
+<meta property="og:description" content="Este programa busca garantizar la seguridad vial y peatonal de los habitantes de la Ciudad de México." />
+
